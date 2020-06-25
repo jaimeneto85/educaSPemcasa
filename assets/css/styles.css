@@ -92,3 +92,18 @@ html {
     max-height: 300px;
     min-height: 300px;
 }
+
+.card-action {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-action a{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 900px){
+    .card-action{
+        flex-direction: column;
+    }
+}
